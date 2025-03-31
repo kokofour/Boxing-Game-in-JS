@@ -9,7 +9,7 @@ let player1 = {
 
 };
 
-let player2 - {
+let player2 = {
     name : "Player2",
 
 }
