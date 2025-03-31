@@ -1,8 +1,5 @@
 
 // Inital setup of players
-
-let currentPlayer = player1;
-
 let player1 = {
     name : "Player 1",
     health : 100,
@@ -13,10 +10,12 @@ let player2 = {
     name : "Player2",
     health : 100,
 }
+let currentPlayer = player1;
+
 
 // Generate Random Dmg
 function generateDamage() {
-    returnMath.floor (Math,random() * 10) + 1  // the value ranges from 1 to 10
+    return Math.floor (Math.random() * 10) + 1  // the value ranges from 1 to 10
 
 }
 
